@@ -211,7 +211,7 @@ nav ul ul li a {
     display: block;
 }
 
-/* Second, Third and more Tiers	
+/* Second, Third and more Tiers 
  * We move the 2nd and 3rd etc tier dropdowns to the left
  * by the amount of the width of the first tier.
 */
@@ -382,8 +382,6 @@ li > a:only-child:after {
 
 /*--/banner --*/
 
-}
-
 .main-banner {
     background: url(../images/banner.jpg)no-repeat center;
     -webkit-background-size: cover;
@@ -405,7 +403,11 @@ li > a:only-child:after {
     position: relative;
     min-height: 20em;
 }
-
+.bg1 {
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 0;
+    background-image: url('../images/mainb.jpg');
+}
 /*-- place holder --*/
 
 .banner-form ::-webkit-input-placeholder {
